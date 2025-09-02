@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.container a.active{
+    background-color: rgb(37 99 235);
+    padding: 8px 10px;
+    border-radius: 5px;
+    color:white
+}
